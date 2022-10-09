@@ -86,6 +86,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
-.home-title, h4 {
-    color: #FFFF
+.home-title {
+    color: #E76F51;
+}
+
+h4 {
+    color: #FFFF;
 }
