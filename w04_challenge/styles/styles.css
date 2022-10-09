@@ -1,0 +1,39 @@
+body {
+    background-color: #fca6c9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h1:hover {
+    color: black;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.list {
+    color: black;
+    text-align: left;
+    padding-left: 35%;
+    padding-left: auto;
+    font-weight: bold;
+}
+
+#quote {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    color: black;
+}
