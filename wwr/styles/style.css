@@ -8,14 +8,14 @@
 
 body {
     background-color: #fcfbfb;
-    font-family: var(--paragraph-font);
+    font-family: "Archivo Narrow", Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-family: var(--heading-font);
+    font-family: "Oswald", Arial, sans-serif;;
     margin: 0;
     
 }
@@ -28,7 +28,7 @@ nav a {
     text-align: center;
     color: #FFFF;
     text-decoration: none;
-    font-family: var(--paragraph-font);
+    font-family: "Archivo Narrow", Arial, Helvetica, sans-serif;
     padding: 35px;
 }
 
@@ -66,7 +66,7 @@ nav a:hover {
     background-color: #3BA99C;
     color: #FFFF;
     text-decoration: none;
-    font-family: var(--paragraph-font);
+    font-family: "Archivo Narrow", Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -91,7 +91,7 @@ nav a:hover {
 
 .msg p {
     color: #FFFF;
-    font-family: var(--paragraph-font);
+    font-family: "Archivo Narrow", Arial, Helvetica, sans-serif;
     font-family: .8em;
     padding-bottom: 15px;
 }
@@ -127,14 +127,14 @@ footer p a:hover{
 
 .home-title {
     color: #E76F51;
-    font-family: var(--heading-font);
+    font-family: "Oswald", Arial, sans-serif;;
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4 {
     color: #FFFF;
-    font-family: var(--heading-font);
+    font-family: "Oswald", Arial, sans-serif;;
 }
 
 .icon {
