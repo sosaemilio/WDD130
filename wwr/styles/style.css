@@ -92,7 +92,7 @@ nav a:hover {
 .msg p {
     color: #FFFF;
     font-family: "Archivo Narrow", Arial, Helvetica, sans-serif;
-    font-family: .8em;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 
