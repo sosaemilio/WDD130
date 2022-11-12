@@ -71,7 +71,7 @@ nav a:hover {
     color: #FFFF;
 }
 
-.book, .join {
+.book, .join, .learn-more {
     background-color: #3BA99C;
     color: #FFFF;
     text-decoration: none;
@@ -236,6 +236,135 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* RIVERS PAGE */
+
+/* Rivers Page - Ids */
+
+#rivers-title {
+    color: #E76F51;
+    text-align: center;
+}
+
+#top-left-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#top-right-img {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#top-left-img h3{
+    text-align: left;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 30px;
+    color: #fcfbfb;
+}
+
+#top-right-img h3 {
+    text-align: left;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 30px;
+    color: #fcfbfb;
+}
+
+#bottom-left-img {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+#bottom-left-img h3 {
+    text-align: left;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 30px;
+    color: #fcfbfb;
+}
+
+#bottom-left-img h3 {
+    text-align: left;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 30px;
+    color: #fcfbfb;
+}
+
+#bottom-right-img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#bottom-right-img h3 {
+    text-align: left;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 30px;
+    color: #fcfbfb;
+}
+
+#gallery-title {
+    grid-column: 2/3;
+    text-align: center;
+    color: #E76F51;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+/* Rivers Page - Clases */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.rivers-section {
+    background-color: #264653;
+    display: flex;
+    grid-column: 2/3;
+    padding: 35px;
+    justify-content: flex-start;
+    margin: 35px;
+}
+
+.rivers-img{
+    margin: 13px;
+    width: 400px;
+}
+
+.rivers-content {
+    text-align: left;
+    margin: 4px 17px 17px 17px;
+}
+
+.rivers-content p, .rivers-content h2{
+    color: #fcfbfb;
+}
+
+
+.rivers-gallery {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.rivers-gallery img{
+    height: 672px;
+    padding: 10px;
+}
+
+.rivers-gallery img:hover{
+    opacity: .6;
+    transform: scale(1.02);
+}
+
 
 /* RESPONSIVE DESIGN */
 
