@@ -51,6 +51,10 @@ body {
     color: var(--secondary-color);
 }
 
+.button:hover {
+    background-color: var(--accent1-color);
+}
+
 .button a:hover{
     text-decoration: underline;
     color: var(--secondary-color);
