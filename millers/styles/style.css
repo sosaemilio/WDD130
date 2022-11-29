@@ -23,9 +23,6 @@ body {
     padding: 0;
 }
 
-img {
-    width: 100%;
-}
 
 .content {
     max-width: 1600px;
@@ -103,6 +100,8 @@ nav a:hover{
 #hero-img {
     width: 100%;
     background-size: cover;
+    margin-top: -250px;
+    opacity: 0.6;
 }
 
 #hero-box {
@@ -128,6 +127,10 @@ nav a:hover{
 
 .section-mission p {
     text-align: center;
+}
+
+.section-mission {
+    margin: 80px;
 }
 
 
@@ -170,8 +173,38 @@ nav a:hover{
 
 .section-volunteer {
     display: flex;
+    height: 400px;
 }
 
+#volunteer-box {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 50px;
+}
+
+
+/*Donate*/
+
+.section-donate {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-donate img {
+    width: 800px;
+    grid-column: 1/2;
+    z-index: -1;
+}
+
+#background {
+    background-color: #FDBE34;
+    height: 350px;
+    grid-column: 2/3;
+    margin-left: -50px;
+    margin-top: 20px;
+    padding: 25px;
+}
 
 
 /* Footer */
@@ -181,8 +214,6 @@ footer {
     grid-template-columns: 200px auto;
     background-color: var(--accent2-color);
     color: var(--secondary-color);
-    /* align-items: center;
-    justify-content: space-between; */
     padding: 12.5px 25px;
     margin-top: 100px;
 }
