@@ -23,6 +23,10 @@ Global Variables
 
 /* Body */
 
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
 body {
     background-color: var(--secondary-color);
     font-family: var(--paragraph-font);
@@ -69,6 +73,7 @@ header {
     display: grid;
     background-color: var(--primary-color);
     grid-template-columns: 200px auto;
+    position: sticky;
 }
 
 nav {
@@ -263,33 +268,79 @@ Link: donate.html
 
 /* Hero Section */
 
-#donate-hero {
-    display: flex;
+
+#donate-main{
+    padding: 0px 80px;
 }
 
-#donate-img {
+#donate-hero {
+    display: flex;
+    margin: 20px;
+}
+
+#donate-page-img {
     width: 50%;
-    border-radius: 10%;
+    border-radius: 2%;
+}
+
+/* Donate Message */
+
+#donate-left {
+    padding: 20px;
+}
+
+/*Donate Button*/
+
+#amount{
+    width: 200px;
+    padding: 19px;
+    border: 1px solid;
+    float: left;
+    background: rgba(255, 252, 252, 0.748);
 }
 
 .donate-title {
     text-align: center;
+    margin: 30px;
 }
+
+
+/* Join Us Section */
+
 
 #joinus-img {
     width: 100%;
-}
-
-#donate-background {
-    height: auto;
-    background-color: #FDBE34;
-    display: inline;
+    margin: 0px;
 }
 
 #donate-bottom-box {
     display: flex;
+    margin-top: -150px;
 }
 
 #donate-bottom-txt {
-    display: 50%;
+    background-color: var(--accent1-color);
+    border: solid #000000;
+    padding: 18px;
+    color: var(--secondary-color);
 }
+
+#donate-background {
+    width: 100%;
+    background-color: #FDBE34;
+    border: solid #000000;
+    border-left: none;
+    padding: 18px;
+}
+
+#donate-background p {
+    color: var(--secondary-color);
+}
+
+
+#donate-bottom-txt h4, #donate-background h4 {
+    color: var(--accent2-color);
+    font-size: 22px;
+    margin: 0;
+}
+
