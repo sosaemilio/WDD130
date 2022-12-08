@@ -344,4 +344,31 @@ Link: donate.html
     margin: 0;
 }
 
-/*Re submit*/
+
+/**** 
+
+Page: "Millers - About Us"
+Link: about-us.html 
+
+****/
+
+.about-us {
+    background-color: #FDBE34;
+    margin: 5%;
+    padding: 24px;
+}
+
+.about-us-members {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-members img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-us-members h3 {
+    margin: 0;
+    text-align: center;
+}
